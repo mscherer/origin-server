@@ -19,7 +19,6 @@ Requires:       qpid-cpp-client
 Requires:       ruby-qpid-qmf
 #Requires:       qpid-tools
 Requires:       rubygem(openshift-origin-common)
-Requires:       rubygem(json)
 Requires:       selinux-policy-targeted
 Requires:       policycoreutils-python
 

@@ -23,13 +23,9 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency('openshift-origin-controller')
-  s.add_dependency('json')  
-  s.add_dependency('systemu')  
+  s.add_dependency('mcollective')
   s.add_development_dependency('rake')  
   s.add_development_dependency('rspec')
   s.add_development_dependency('bundler')
-  s.add_development_dependency('mocha')
 
-  #required because mcollective had a dependency
-  s.add_dependency('stomp')
 end
