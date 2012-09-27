@@ -15,7 +15,6 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 Requires:       ruby(abi) >= 1.8
 Requires:       rubygems
 Requires:       rubygem(openshift-origin-common)
-Requires:       rubygem(json)
 Requires:       bind
 Requires:       bind-utils
 Requires:       rubygem(dnsruby)
