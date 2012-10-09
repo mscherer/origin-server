@@ -16,7 +16,6 @@ Source0:        rubygem-%{gemname}-%{version}.tar.gz
 Requires:       ruby(abi) = 1.8
 Requires:       rubygems
 Requires:       rubygem(openshift-origin-common)
-Requires:       rubygem(json)
 Requires:       openshift-broker
 
 BuildRequires:  rubygems
